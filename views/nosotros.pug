@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros",class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet, mauris in semper hendrerit, risus libero convallis nisi, eget laoreet sem neque eget nulla.
+
+                p Vestibulum id magna vitae metus pretium rhoncus. In hac habitasse platea dictumst. Mauris luctus turpis ante, nec ultrices felis euismod nec. Maecenas gravida accumsan tellus, non pretium mi maximus at. Morbi et magna augue. Nunc a libero eros. Integer arcu enim, lobortis et turpis ac, fermentum congue tellus.
+
+                p Nulla tristique sapien non turpis tincidunt egestas. Pellentesque sit amet sollicitudin nisl, nec pellentesque mauris. Fusce vitae libero ac lectus malesuada ullamcorper a et lorem.
+
+        .listado-iconos    
+            .container.mt-5.py-5.text-center    
+                .row 
+                    .col-md-4 
+                        img(src="img/icono_seguridad.svg", alt="",class="img-fluid mb-4")
+                        h2.mb-4 Seguridad
+                        p Vestibulum id magna vitae metus pretium rhoncus.
+                    .col-md-4 
+                        img(src="img/icono_destinos.svg", alt="",class="img-fluid mb-4")
+                        h2.mb-4 Destinos
+                        p Vestibulum id magna vitae metus pretium rhoncus.
+                    .col-md-4 
+                        img(src="img/icono_precios.svg", alt="",class="img-fluid mb-4")
+                        h2.mb-4 Precios
+                        p Vestibulum id magna vitae metus pretium rhoncus.
